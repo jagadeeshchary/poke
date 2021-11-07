@@ -546,12 +546,17 @@ td{
 }
 /* footer */
 .foot{
-    display: flex;
-    justify-content: space-evenly;
+    
     text-align: center;
     background-color: rgb(0, 18, 28);
     padding: 20px 100px;
-    width: 100%;
+    max-width: 100%;
+}
+.footsec{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
 }
 .flinks{
     text-decoration: none;
